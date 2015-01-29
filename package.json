@@ -1,0 +1,22 @@
+{
+  "name": "pull-duoshuo-data",
+  "version": "0.0.1",
+  "description": "Pull comments data from duoshuo API server.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yujiangshui/pull-duoshuo-data"
+  },
+  "keywords": [
+    "duoshuo"
+  ],
+  "author": "yujiangshui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yujiangshui/pull-duoshuo-data/issues"
+  },
+  "homepage": "https://github.com/yujiangshui/pull-duoshuo-data",
+  "dependencies": {
+    "unescape-html": "^1.0.0",
+    "restler": "^3.2.2"
+  }
+}
