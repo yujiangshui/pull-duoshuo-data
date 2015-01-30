@@ -1,6 +1,6 @@
 var fs = require('fs');
 
-module.exports = createJSON = function(data) {
+var createJSON = module.exports = function(data) {
 	var fileName = 'result-' + Date.now() + '.json';
 	var defaultName = 'result.json';
 
