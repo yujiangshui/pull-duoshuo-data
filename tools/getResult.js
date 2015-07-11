@@ -6,7 +6,10 @@
 var getResult = module.exports  = function(data) {
 	var tempResult = [];
 	for (var i in data) {
-		tempResult.push(unescape(data[i].message));
+		var dataItem = data[i].message;
+		dataItem = unescape(dataItem);
+		dataItem = dataItem.replace(/&quot;/g, '"');;
+		tempResult.push(dataItem);
 	}
 
 	return tempResult;
