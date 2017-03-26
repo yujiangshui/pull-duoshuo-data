@@ -1,5 +1,7 @@
 # pull-duoshuo-data
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/yujiangshui/pull-duoshuo-data.svg)](https://greenkeeper.io/)
+
 配置你的多说的有关信息，将多说评论内容拉取下来变成 JSON 文档以方便数据分析和使用。
 
 ## 用法
